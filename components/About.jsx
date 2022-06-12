@@ -26,8 +26,8 @@ const About = () => {
                 <Image 
                  src="/../public/assets/profile.jpeg"
                  alt='/'
-                 width="400"
-                 height="400"
+                 width={400}
+                 height={400}
                  className="rounded-xl"
                  />
             </div>
