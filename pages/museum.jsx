@@ -15,7 +15,7 @@ const Museum = () => {
   </Head>
     <div className='w-full'>
         <div className='w-screen h-[30vh] lg:h-[40vh] relative'>
-            <div className='absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10'></div>
+            <div className='absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/70 z-10'></div>
             <Image 
             className='absolute z-1' 
             layout='fill' 
@@ -39,8 +39,15 @@ const Museum = () => {
                 more info about this project!!
                 more info about this project!!
             </p>
+            <a href='https://fervent-mestorf-4f8d3e.netlify.app/'>
             <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
+            </a>
+            <a
+            href='https://github.com/Shumailakayani06/community-science-museum'>
             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
+            </a>
+           
+         
          </div>
          <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
             <div className='p-2'>

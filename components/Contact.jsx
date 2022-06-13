@@ -32,13 +32,13 @@ const Contact = () => {
                         <p className='uppercase pt-8'>Conect With Me</p>
                         <div className='flex items-center justify-between py-4'>
                         <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                          <FaLinkedinIn />
+                        <a href='https://www.linkedin.com/in/shumaila-kayani-556aa717a/'> <FaLinkedinIn /></a>
                          </div>
                          <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                         <FaGithub />
+                         <a href='https://github.com/Shumailakayani06'><FaGithub /></a>
                          </div>
                          <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                         <AiOutlineMail />
+                         <a href='mailto:shumailakayani059@gmail.com'><AiOutlineMail /></a>
                          </div>
                          <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                          <BsFillPersonLinesFill />

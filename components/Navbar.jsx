@@ -19,7 +19,8 @@ const Navbar = () => {
             router.asPath === '/lovegreen' ||
             router.asPath === '/beautystore' ||
             router.asPath === '/museum' ||
-            router.asPath === '/rainyDays'
+            router.asPath === '/holidaze' ||
+            router.asPath === '/jsCa' 
         ) {
            setNavBg('transparent')
            setLinkColor('#ecf0f3')
@@ -128,16 +129,16 @@ const Navbar = () => {
                  <p className='uppercase tracking-widest text-[#5651e5]'>Lets Connect</p>
                  <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                    <FaLinkedinIn />
+                    <a href='https://www.linkedin.com/in/shumaila-kayani-556aa717a/'> <FaLinkedinIn /></a>
                     </div>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                    <FaGithub />
+                    <a href='https://github.com/Shumailakayani06'> <FaGithub /></a>
                     </div>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                    <AiOutlineMail />
+                    <a href='mailto:shumailakayani059@gmail.com'><AiOutlineMail /></a>
                     </div>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                    <BsFillPersonLinesFill />
+                    <a href='/#contact'><BsFillPersonLinesFill /></a>
                     </div>
                  </div>
               </div>

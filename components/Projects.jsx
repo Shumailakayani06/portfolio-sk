@@ -4,6 +4,9 @@ import loveGreen from '../public/assets/lovegreen.png'
 import beautyStore from '../public/assets/beautystore.png'
 import museum from '../public/assets/museum.png'
 import rainy from '../public/assets/rainyDays.png'
+import jsCa from '../public/assets/jscaImg.png'
+import holidaze from '../public/assets/holidazeImg.png'
+
 import Link from 'next/link'
 import ProjectItem from './ProjectItem'
 
@@ -14,6 +17,11 @@ const Projects = () => {
             <p className='text-xl tracking-widest uppercase text-[#5651e5]'>Projects</p>
             <h2>What I Have Built</h2>
             <div className='grid md:grid-cols-2 gap-8'>
+            <ProjectItem 
+              title='Holidaze' 
+              backgroundImg={holidaze} 
+              projectUrl='/holidaze'
+              />
              <ProjectItem 
               title='Love & Green' 
               backgroundImg={loveGreen} 
@@ -29,10 +37,10 @@ const Projects = () => {
               backgroundImg={museum} 
               projectUrl='/museum'
               />
-                  <ProjectItem 
-              title='Rainy Days' 
-              backgroundImg={rainy} 
-              projectUrl='/rainyDays'
+                <ProjectItem 
+              title='JsCa' 
+              backgroundImg={jsCa} 
+              projectUrl='/jsCa'
               />
             </div>
         </div>
