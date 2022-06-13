@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 import { AiOutlineMail } from 'react-icons/ai'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
@@ -19,16 +20,16 @@ const Main = () => {
               </p>
               <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
                   <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                      <a href='https://www.linkedin.com/in/shumaila-kayani-556aa717a/'><FaLinkedinIn /></a>
+                      <Link href='https://www.linkedin.com/in/shumaila-kayani-556aa717a/'><FaLinkedinIn /></Link>
                   </div>
                   <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                     <a href='https://github.com/Shumailakayani06'><FaGithub /></a> 
+                     <Link href='https://github.com/Shumailakayani06'><FaGithub /></Link> 
                   </div>
                   <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                     <a href='mailto:shumailakayani059@gmail.com'><AiOutlineMail /></a>
+                     <Link href='mailto:shumailakayani059@gmail.com'><AiOutlineMail /></Link>
                   </div>
                   <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                     <a href='/#contact'> <BsFillPersonLinesFill /></a>
+                     <BsFillPersonLinesFill />
                   </div>
               </div>
             </div>

@@ -129,16 +129,16 @@ const Navbar = () => {
                  <p className='uppercase tracking-widest text-[#5651e5]'>Lets Connect</p>
                  <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                    <a href='https://www.linkedin.com/in/shumaila-kayani-556aa717a/'> <FaLinkedinIn /></a>
+                    <Link href='https://www.linkedin.com/in/shumaila-kayani-556aa717a/'><FaLinkedinIn /></Link>
                     </div>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                    <a href='https://github.com/Shumailakayani06'> <FaGithub /></a>
+                    <Link href='https://github.com/Shumailakayani06'><FaGithub /></Link> 
                     </div>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                    <a href='mailto:shumailakayani059@gmail.com'><AiOutlineMail /></a>
+                    <Link href='mailto:shumailakayani059@gmail.com'><AiOutlineMail /></Link>
                     </div>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                    <a href='/#contact'><BsFillPersonLinesFill /></a>
+                   <BsFillPersonLinesFill />
                     </div>
                  </div>
               </div>
