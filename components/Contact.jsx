@@ -1,11 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
-import profileImg from '../public/assets/profile.jpeg'
 import { AiOutlineMail } from 'react-icons/ai'
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { HiOutlineChevronDoubleUp} from 'react-icons/hi'
 import Link from 'next/link'
+import contactImg from '../public/assets/contact.jpg'
 
 
 const Contact = () => {
@@ -19,7 +19,7 @@ const Contact = () => {
                 <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
                     <div className='lg:p-4 h-full '>
                         <div>
-                        <Image src={profileImg} alt="/"  className='rounded-xl hover:scale-105 ease-in duration-300'/>
+                        <Image src={contactImg} alt="/"  className='rounded-xl hover:scale-105 ease-in duration-300'/>
                         </div>
                         <div>
                             <h2 className='py-2'>
