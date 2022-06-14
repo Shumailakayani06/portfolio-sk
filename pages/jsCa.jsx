@@ -25,7 +25,7 @@ const jsCa = () => {
              />
             <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
                 <h2 className='py-2'>Js Ca</h2>
-                <h3>HTML / CSS / JavaScript</h3>
+                <h3>HTML / CSS / Next.js</h3>
             </div>
         </div>
        
@@ -34,11 +34,15 @@ const jsCa = () => {
             <p>Project</p>
             <h2>Overview</h2>
             <p>
-                This app was built using JavaScript and Wordpress.
-                more info about this project!!
-                more info about this project!!
-                more info about this project!!
+            For this project create a Responsive Next.js app. I had to fetch data from an API and reder de result.
             </p>
+            <h4 className='mt-4'>Functionalities</h4>
+           <ul className='grid grid-cols-3 md:grid-cols-1'>
+            <li className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill  className='pr-1'/>Created with Next.js</li>
+            <li className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill  className='pr-1'/>Fetch to an API and reder the result</li>
+            <li className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill  className='pr-1'/>Responsive Navbar using next links</li>
+            <li className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill  className='pr-1'/>Login form with JWT</li>
+           </ul>
             <a>
             <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
             </a>
@@ -62,6 +66,8 @@ const jsCa = () => {
                 <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill  className='pr-1'/> JavaScript
                 </p>
                 <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill  className='pr-1'/> Strapi Api
+                </p>
+                <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill  className='pr-1'/> Next.js
                 </p>
              </div>
             </div>

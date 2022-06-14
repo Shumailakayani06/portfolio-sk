@@ -34,10 +34,9 @@ const Museum = () => {
             <p>Project</p>
             <h2>Overview</h2>
             <p>
-                This app was built using JavaScript and Wordpress.
-                more info about this project!!
-                more info about this project!!
-                more info about this project!!
+               I had to create a website for a community museum. 
+               The museum was for families and school going children.
+               This was one of the first websites i made so we had to hard code it with HTML and CSS.
             </p>
             <a href='https://fervent-mestorf-4f8d3e.netlify.app/'>
             <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
@@ -58,10 +57,6 @@ const Museum = () => {
                 <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill  className='pr-1'/> HTML
                 </p>
                 <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill  className='pr-1'/> CSS
-                </p>
-                <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill  className='pr-1'/> JavaScript
-                </p>
-                <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill  className='pr-1'/> Strapi Api
                 </p>
              </div>
             </div>

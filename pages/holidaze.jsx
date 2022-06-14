@@ -33,12 +33,21 @@ const Holidaze = () => {
          <div className='col-span-4'>
             <p>Project</p>
             <h2>Overview</h2>
-            <p>
-                This app was built using JavaScript and Wordpress.
-                more info about this project!!
-                more info about this project!!
-                more info about this project!!
+            <p className='mt-4'>
+              Holidaze is a local tourism agency that shows hotels and accommodations in Bergen.
             </p>
+            <h4 className='mt-4'>Functionalities</h4>
+           <ul className='grid grid-cols-3 md:grid-cols-1'>
+            <li className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill  className='pr-1'/>Public Strapi Api deployed with Heroku</li>
+            <li className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill  className='pr-1'/>Render data from public Api</li>
+            <li className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill  className='pr-1'/>Hotel Specific page</li>
+            <li className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill  className='pr-1'/>Drop down filter search bar</li>
+            <li className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill  className='pr-1'/>Login with JWT</li>
+            <li className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill  className='pr-1'/>Enquiry Form connected to the admin page</li>
+            <li className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill  className='pr-1'/>Contact Form connected to the admin page</li>
+            <li className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill  className='pr-1'/>Admin section where you can manage Establishments</li>
+
+           </ul>
             <a>
             <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
             </a>
@@ -57,9 +66,13 @@ const Holidaze = () => {
                 </p>
                 <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill  className='pr-1'/> CSS
                 </p>
-                <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill  className='pr-1'/> JavaScript
+                <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill  className='pr-1'/> Next.js
                 </p>
                 <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill  className='pr-1'/> Strapi Api
+                </p>
+                <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill  className='pr-1'/> Tailwind
+                </p>
+                <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill  className='pr-1'/> Heroku
                 </p>
              </div>
             </div>

@@ -35,11 +35,20 @@ const BeautyStore = () => {
             <p>Project</p>
             <h2>Overview</h2>
             <p>
-                This app was built using JavaScript and Wordpress.
-                more info about this project!!
-                more info about this project!!
-                more info about this project!!
+            I created an e-commerce website that has both customer-facing and admin section.
             </p>
+            <h4 className='mt-4'>Functionalities</h4>
+           <ul className='grid grid-cols-3 md:grid-cols-1'>
+            <li className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill  className='pr-1'/>A list of featured products</li>
+            <li className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill  className='pr-1'/>A list of all products added to Strapi</li>
+            <li className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill  className='pr-1'/>A filter search text box</li>
+            <li className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill  className='pr-1'/>display the total price of all the products in the cart</li>
+            <li className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill  className='pr-1'/>Login with JWT</li>
+            <li className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill  className='pr-1'/>Login with JWT</li>
+            <li className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill  className='pr-1'/>Admin section where you can add/edit products</li>
+
+
+           </ul>
             <a 
             href='https://gifted-swirles-653374.netlify.app/'>
             <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
