@@ -32,7 +32,7 @@ const lovegreen = () => {
               We could choose any theme we wanted so i chose to create a food blog.
             </p>
             <h4 className='mt-4'>Functionalities</h4>
-           <ul className='grid grid-cols-3 md:grid-cols-1'>
+           <ul className='grid grid-cols-1 md:grid-cols-1'>
             <li className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill  className='pr-1'/>Responsive website</li>
             <li className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill  className='pr-1'/>Wordpress Api deployed to Hostinger</li>
             <li className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill  className='pr-1'/>display blog posts and detail page of each blog post</li>

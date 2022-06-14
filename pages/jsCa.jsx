@@ -37,7 +37,7 @@ const jsCa = () => {
             For this project create a Responsive Next.js app. I had to fetch data from an API and reder de result.
             </p>
             <h4 className='mt-4'>Functionalities</h4>
-           <ul className='grid grid-cols-3 md:grid-cols-1'>
+           <ul className='grid grid-cols-1 md:grid-cols-1'>
             <li className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill  className='pr-1'/>Created with Next.js</li>
             <li className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill  className='pr-1'/>Fetch to an API and reder the result</li>
             <li className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill  className='pr-1'/>Responsive Navbar using next links</li>

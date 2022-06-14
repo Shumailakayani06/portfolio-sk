@@ -38,7 +38,7 @@ const BeautyStore = () => {
             I created an e-commerce website that has both customer-facing and admin section.
             </p>
             <h4 className='mt-4'>Functionalities</h4>
-           <ul className='grid grid-cols-3 md:grid-cols-1'>
+           <ul className='grid grid-cols-1 md:grid-cols-1'>
             <li className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill  className='pr-1'/>A list of featured products</li>
             <li className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill  className='pr-1'/>A list of all products added to Strapi</li>
             <li className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill  className='pr-1'/>A filter search text box</li>

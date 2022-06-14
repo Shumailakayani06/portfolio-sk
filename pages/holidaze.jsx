@@ -37,7 +37,7 @@ const Holidaze = () => {
               Holidaze is a local tourism agency that shows hotels and accommodations in Bergen.
             </p>
             <h4 className='mt-4'>Functionalities</h4>
-           <ul className='grid grid-cols-3 md:grid-cols-1'>
+           <ul className='grid grid-cols-1 md:grid-cols-1'>
             <li className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill  className='pr-1'/>Public Strapi Api deployed with Heroku</li>
             <li className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill  className='pr-1'/>Render data from public Api</li>
             <li className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill  className='pr-1'/>Hotel Specific page</li>
