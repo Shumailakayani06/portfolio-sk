@@ -76,7 +76,7 @@ const Navbar = () => {
                      <li className='ml-10 text-sm uppercase hover:border-b'> Contact</li>
                  </Link>
              </ul>
-             <div onClick={handleNav} className='md:hidden cursor-pointer'>
+             <div onClick={handleNav} className='md:hidden cursor-pointer' style={{color: `${linkColor}`}} >
                  <AiOutlineMenu size={25}/>
              </div>
          </div>
