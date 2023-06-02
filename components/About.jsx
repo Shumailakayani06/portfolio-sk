@@ -12,6 +12,7 @@ const About = () => {
                 <h2 className='py-4' >Who I Am</h2>
                 <p className='py-2 text-gray-600' >
                 I am a positive, enthusiastic and competent Frontend Developer graduated from Noroff-School of Technology and Digital Media in 2022.
+                im just testing some stuff right now
                 </p>
                 <p className='py-2 text-gray-600'>
                  In 2017, i started a self-employed business in the Beauty industry, where i felt the need for the modren skills of the web industry to project, promote and enhance these types of businesses.
