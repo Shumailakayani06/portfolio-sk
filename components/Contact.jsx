@@ -50,7 +50,7 @@ const Contact = () => {
 
 
                 {/* right */}
-
+{/* 
                 <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
                   <div className='p-4'>
                     <form>
@@ -87,7 +87,7 @@ const Contact = () => {
                          <button className='w-full p-4 text-gray-100 mt-4'>Send Message</button>
                     </form>
                   </div>
-                </div>
+                </div> */}
             </div>
             <div className='flex justify-center py-12'>
                 <Link href="/">
