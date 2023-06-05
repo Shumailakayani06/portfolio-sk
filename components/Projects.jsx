@@ -5,7 +5,7 @@ import beautyStore from '../public/assets/beautystore.png'
 import museum from '../public/assets/museum.png'
 import rainy from '../public/assets/rainyDays.png'
 import jsCa from '../public/assets/jscaImg.png'
-import holidaze from '../public/assets/holidazeImg.png'
+import pokedex from '../public/assets/pokedex'
 
 import Link from 'next/link'
 import ProjectItem from './ProjectItem'
@@ -18,9 +18,9 @@ const Projects = () => {
             <h2>What I Have Built</h2>
             <div className='grid md:grid-cols-2 gap-8'>
             <ProjectItem 
-              title='Holidaze' 
-              backgroundImg={holidaze} 
-              projectUrl='/holidaze'
+              title='Pokedex' 
+              backgroundImg={pokedex} 
+              projectUrl='/pokedex'
               />
              <ProjectItem 
               title='Love & Green' 
