@@ -16,6 +16,9 @@ import ws from '../public/skills/wordpress_logo_icon_167953.png'
 import heroku from '../public/skills/heroku_icon_130912.png'
 import strapi from '../public/skills/strapi_logo_icon_144838.png'
 import figma from '../public/skills/figma_logo_icon_170157.png'
+import postgreSQL from '../public/skills/postgresql.png'
+import mongoDB from '../public/skills/mongo.png'
+
 
 const Skills = () => {
   return (
@@ -113,6 +116,32 @@ const Skills = () => {
                      </div>
                      <div className='flex flex-col items-center justify-center'>
                          <h3>Node.js</h3>
+                     </div>
+                 </div>
+             </div>
+             <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                 <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                     <div className='m-auto'>
+                     <Image 
+                         src={postgreSQL}
+                         alt='/'
+                         />
+                     </div>
+                     <div className='flex flex-col items-center justify-center'>
+                         <h3>PostgreSQL</h3>
+                     </div>
+                 </div>
+             </div>
+             <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                 <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                     <div className='m-auto'>
+                     <Image 
+                         src={mongoDB}
+                         alt='/'
+                         />
+                     </div>
+                     <div className='flex flex-col items-center justify-center'>
+                         <h3>Mongo DB</h3>
                      </div>
                  </div>
              </div>
