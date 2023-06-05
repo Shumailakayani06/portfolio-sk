@@ -34,17 +34,14 @@ const Museum = () => {
             <p>Project</p>
             <h2>Overview</h2>
             <p>
-               I had to create a website for a furniture store. 
+               I had to create a furniture website for a school project
+               The aim was to create a warm home vibe when you first visit the homepage.
             </p>
             <a href='https://vigorous-darwin-b34a5d.netlify.app/'>
             <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
             </a>
-            <a
-            href='https://github.com/Shumailakayani06/community-science-museum'>
-            <button className='px-8 py-2 mt-4 mr-8'>Code</button>
-            </a>
+      
            
-         
          </div>
          <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
             <div className='p-2'>

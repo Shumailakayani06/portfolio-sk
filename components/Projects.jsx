@@ -37,9 +37,9 @@ const Projects = () => {
               projectUrl='/homecare'
               />
                 <ProjectItem 
-              title='JsCa' 
-              backgroundImg={jsCa} 
-              projectUrl='/jsCa'
+              title='Memory Card Game' 
+              backgroundImg={memorycard} 
+              projectUrl='/memorycard'
               />
             </div>
         </div>
