@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import loveGreen from '../public/assets/lovegreen.png'
 import beautyStore from '../public/assets/beautystore.png'
-import museum from '../public/assets/museum.png'
+import homecare from '../public/assets/homecare.png'
 import rainy from '../public/assets/rainyDays.png'
 import jsCa from '../public/assets/jscaImg.png'
 import pokedex from '../public/assets/pokedex.png'
@@ -32,9 +32,9 @@ const Projects = () => {
               projectUrl='/beautystore'
               />
                   <ProjectItem 
-              title='Community Museum' 
-              backgroundImg={museum} 
-              projectUrl='/museum'
+              title='Home & Care' 
+              backgroundImg={homecare} 
+              projectUrl='/homecare'
               />
                 <ProjectItem 
               title='JsCa' 
