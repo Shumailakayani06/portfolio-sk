@@ -5,8 +5,7 @@ import beautyStore from '../public/assets/beautystore.png'
 import museum from '../public/assets/museum.png'
 import rainy from '../public/assets/rainyDays.png'
 import jsCa from '../public/assets/jscaImg.png'
-import pokedex from '../public/assets/pokedex'
-
+import pokedex from '../public/assets/pokedex.png'
 import Link from 'next/link'
 import ProjectItem from './ProjectItem'
 
