@@ -11,7 +11,7 @@ const About = () => {
                 <p className='uppercase text-xl tracking-widest text-[#5651e5]'>About</p>
                 <h2 className='py-4' >Who I Am</h2>
                 <p className='py-2 text-gray-600' >
-                I am a positive, enthusiastic and competent Backend Developer graduated from Noroff-School of Technology and Digital Media, and Brights learing JavaScript program in 2023.
+                I am a positive, enthusiastic and competent Fullstack Developer graduated from Noroff-School of Technology and Digital Media, and Brights learing JavaScript program in 2023.
                 
                 </p>
                 <p className='py-2 text-gray-600'>
@@ -25,7 +25,7 @@ const About = () => {
                 I decided to take a crash course where i learned basic HTML, CSS and JavaScript.
                 What i thougth was just a basic crash course with a few small edits turned into love for programming.
                 Fascinated with how intricate programming can be I was quickly drawn to learn more.
-                In 2020 i decided to start my career as a Backend Developer and i started my education at Noroff-School of Technology and Digital Media where i studied Front End Development.
+                In 2020 i decided to start my career as a Fullstack Developer and i started my education at Noroff-School of Technology and Digital Media where i studied Front End Development.
                 After completing my education i took a 12-week intense JavaScript Course from Brights Learing and gained tremendous of new interesting knowledge.
                 I am very passionate about developing and learnig more everyday! In my spare time, I spend a lot of time doing various types of online crash courses and building projects with React JS and learing new technologies.
                 </p>
