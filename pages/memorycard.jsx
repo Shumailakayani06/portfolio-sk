@@ -1,5 +1,5 @@
 import React from 'react'
-import memorycard from '../public/assets/memorycard.png'
+import memorycard from '../public/assets/memory.png'
 import Image from 'next/image'
 import { RiRadioButtonFill } from 'react-icons/ri'
 import Link from 'next/link'
