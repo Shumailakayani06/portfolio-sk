@@ -8,6 +8,7 @@ import Link from 'next/link'
 import ProjectItem from './ProjectItem'
 import memorycard from '../public/assets/memory.png'
 import snake from '../public/assets/snake.png'
+import stopwatch from '../public/assets/stopwatch.png'
 
 const Projects = () => {
   return (
@@ -17,6 +18,16 @@ const Projects = () => {
             <h2>What I Have Built</h2>
             <div className='grid md:grid-cols-2 gap-8'>
             <ProjectItem 
+              title='Beauty Store' 
+              backgroundImg={beautyStore} 
+              projectUrl='/beautystore'
+              />
+                <ProjectItem 
+              title='Stopwatch' 
+              backgroundImg={stopwatch} 
+              projectUrl='/stopwatch'
+              />
+                <ProjectItem 
               title='Pokedex' 
               backgroundImg={pokedex} 
               projectUrl='/pokedex'
@@ -25,11 +36,6 @@ const Projects = () => {
               title='Love & Green' 
               backgroundImg={loveGreen} 
               projectUrl='/lovegreen'
-              />
-                  <ProjectItem 
-              title='Beauty Store' 
-              backgroundImg={beautyStore} 
-              projectUrl='/beautystore'
               />
                   <ProjectItem 
               title='Home & Care' 
@@ -46,6 +52,7 @@ const Projects = () => {
               backgroundImg={snake} 
               projectUrl='/snake'
               />
+
             </div>
         </div>
     </div>
