@@ -8,7 +8,7 @@ import jsCa from '../public/assets/jscaImg.png'
 import pokedex from '../public/assets/pokedex.png'
 import Link from 'next/link'
 import ProjectItem from './ProjectItem'
-import memorycard from '../public/assets/memory'
+import memorycard from '../public/assets/memory.png'
 
 const Projects = () => {
   return (
